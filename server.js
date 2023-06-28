@@ -1,14 +1,14 @@
-const app = express();
 const mongoose = require('mongoose');
 const socket = require('socket.io');
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const helmet = require('helmet');
-
 const concertsRouter = require('./routes/concerts.routes');
 const seatsRoutes = require('./routes/seats.routes');
 const testimonialsRouter = require('./routes/testimonials.routes');
+
+const app = express();
 
 // Middleware
 app.use(cors());
@@ -36,7 +36,6 @@ app.get('*', (req, res) => {
 // Connect to MongoDB using the secret variable
 const mySecret = process.env.DB_PASS;
 const dbURI = `mongodb+srv://pees:${mySecret}@cluster0.hawsg2s.mongodb.net/?retryWrites=true&w=majority`;
-
 mongoose.connect(dbURI, { useNewUrlParser: true });
 const db = mongoose.connection;
 
