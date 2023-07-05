@@ -14,7 +14,7 @@
     "redux": "4.1.2",
     "redux-devtools-extension": "2.13.9",
     "redux-thunk": "^2.4.1",
-    "sass": "^1.49.9",
+    "sass": "^1.63.4",
     "socket.io-client": "^4.6.1"
   },
   "scripts": {
