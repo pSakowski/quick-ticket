@@ -1,3 +1,1 @@
-https://rest-api-server.psakowski1213.repl.co/
-
-# rest-api-serversss
+<h1>LINK TO APP : https://quick-ticket.onrender.com/</h1>
