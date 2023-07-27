@@ -1,3 +1,3 @@
-https://rest-api-server.psakowski1213.repl.co/
+https://quick-ticket.onrender.com/
 
 # rest-api-serversss
